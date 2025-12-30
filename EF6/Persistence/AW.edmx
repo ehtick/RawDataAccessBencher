@@ -521,7 +521,7 @@
 					<Property Name="City" Type="nvarchar" Nullable="false" MaxLength="30"  />
 					<Property Name="StateProvinceID" Type="int" Nullable="false"  />
 					<Property Name="PostalCode" Type="nvarchar" Nullable="false" MaxLength="15"  />
-					<Property Name="SpatialLocation" Type="geography" SRID="4326" />
+					<Property Name="SpatialLocation" Type="geography"  />
 					<Property Name="rowguid" Type="uniqueidentifier" Nullable="false"  />
 					<Property Name="ModifiedDate" Type="datetime" Nullable="false"  />
 				</EntityType>
@@ -3809,6 +3809,7 @@
 					<NavigationProperty Name="Location" Relationship="Self.WorkOrderRouting_Location_Location_WorkOrderRoutings" FromRole="WorkOrderRouting" ToRole="Location" />
 					<NavigationProperty Name="WorkOrder" Relationship="Self.WorkOrderRouting_WorkOrder_WorkOrder_WorkOrderRoutings" FromRole="WorkOrderRouting" ToRole="WorkOrder" />
 				</EntityType>
+				<EnumType Name="CategoryType" cg:ExternalTypeName="EnumTypes.CategoryType" />
 				<Association Name="Address_StateProvince_StateProvince_Addresses">
 					<End Role="Address" Type="Self.Address" Multiplicity="*" />
 					<End Role="StateProvince" Type="Self.StateProvince" Multiplicity="1" />

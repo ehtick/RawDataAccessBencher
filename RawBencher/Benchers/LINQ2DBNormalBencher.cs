@@ -1,5 +1,6 @@
 ﻿using LINQ2DB.Bencher;
 using LinqToDB;
+using LinqToDB.Async;
 using LinqToDB.Data;
 using System;
 using System.Collections.Generic;

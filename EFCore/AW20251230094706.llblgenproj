@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <!--LLBLGen Pro v5.13 project file. Do not manually edit this file. Incorrect references could lead to an unloadable project file.-->
-<Project Version="5.13" TargetFrameworkName="Entity Framework Core v10" UseLegacyDefaults="false">
+<Project Version="5.13" TargetFrameworkName="Entity Framework Core v6" UseLegacyDefaults="false">
   <Properties>
     <Abbreviations />
     <Property Name="AdditionalTaskPerformerFolder" Value="" />
@@ -102,16 +102,16 @@
     <OutputType Value="3">
       <LastUsedPreferences>
         <DestinationRootFolder Value=".\" />
-        <FrameworkName Value="Entity Framework Core v10" />
+        <FrameworkName Value="Entity Framework Core v6" />
         <LanguageName Value="C#" />
-        <PlatformName Value=".NET 10" />
-        <PresetName Value="SD.EntityFramework.Core v10" />
+        <PlatformName Value=".NET 6" />
+        <PresetName Value="SD.EntityFramework.Core v6" />
         <RootNamespace Value="EFCore.Bencher" />
         <TemplateGroup Value="General" />
         <TemplateBindings>
-          <Binding Name="SD.EntityFramework.Core.v10.SqlServer" />
-          <Binding Name="SD.EntityFramework.Core v10" />
-          <Binding Name="SD.EntityFramework.NET10" />
+          <Binding Name="SD.EntityFramework.Core.v6.SqlServer" />
+          <Binding Name="SD.EntityFramework.Core v6" />
+          <Binding Name="SD.EntityFramework.NET6" />
           <Binding Name="SD.EntityFramework.Shared" />
           <Binding Name="SD.TemplateBindings.General" />
         </TemplateBindings>

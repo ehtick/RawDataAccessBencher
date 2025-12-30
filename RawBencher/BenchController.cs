@@ -8,7 +8,7 @@ using System.Configuration;
 #if !NETCOREAPP
 using AdventureWorks.Dal.Adapter.DatabaseSpecific;
 #endif
-using System.Data.SqlClient;
+using Microsoft.Data.SqlClient;
 using System.Linq;
 using System.Threading;
 using Dapper;
